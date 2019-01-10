@@ -1,4 +1,4 @@
-section.heading {
+section.heading__wrapper {
   position: absolute; 
   top: 50%; 
   left: 50%;
@@ -6,36 +6,26 @@ section.heading {
   display: flex;
   flex-direction: column; 
   text-align: center; 
+  width: 100%; 
+  justify-content: center; 
 }
 
-div.heading__one {
-  font-size: 10vmin; 
+div.heading {
+  font-size: 220px; 
   font-weight: 400; 
 }
 
-span.heading__outline {
-  font-family: 'Courier New', Courier, monospace; 
-  -webkit-text-stroke: 2px #0000ff;
-  color: #000; 
-  margin: 0 0 0 -15px;
-}
-span.one {
-  font-size: 10vmin; 
+.heading__text {
+  font-family: 'Helvetica Neue'; 
+  font-size: 235px; 
+  color: #fff; 
 }
 
-div.heading__two {
-  font-size: 12vmin; 
-  line-height: inherit; 
-}
-span.two {
-  font-size: 12vmin; 
+.row_one {
+  margin-bottom: -100px; 
 }
 
-div.heading__three {
-  font-size: 12vmin; 
-}
-
-span.three {
-  font-size: 12vmin; 
+.heading__text span {
+  font-family: 'Neue Pixel Grotesk';
 }
 

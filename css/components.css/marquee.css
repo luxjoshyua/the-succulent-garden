@@ -1,0 +1,33 @@
+div.marquee {
+  position: fixed; 
+  left: 0;
+  bottom: 0; 
+  padding: 15px 0; 
+  width: 100vw; 
+  z-index: 4;
+  background-color: #000; 
+  border-top: 1px solid #fff; 
+}
+
+div.marquee span {
+  position: relative;
+  animation: moveLeft 600s infinite; 
+  white-space: nowrap; 
+  display: block;
+  font-family: 'Neue Pixel Grotesk';
+  font-size: 16px; 
+  color: #fff; 
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0); 
+  }
+  100% {
+    transform: translateX(-3000vw); 
+  }
+}
+
+div.mix-difference {
+  mix-blend-mode: difference; 
+}
