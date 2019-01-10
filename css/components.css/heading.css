@@ -17,7 +17,7 @@ div.heading {
 
 .heading__text {
   font-family: 'Helvetica Neue'; 
-  font-size: 235px; 
+  font-size: 215px; 
   color: #fff; 
 }
 
@@ -28,4 +28,6 @@ div.heading {
 .heading__text span {
   font-family: 'Neue Pixel Grotesk';
 }
+
+
 
