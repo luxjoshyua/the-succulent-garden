@@ -1,0 +1,36 @@
+body {
+
+  font-family: Helvetica Neue, sans-serif; 
+  -webkit-font-smoothing: antialised; 
+  font-size: 16px; 
+
+  line-height: 1.4; 
+
+  color: #fff;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  min-height: 100%;
+}
+
+a:hover {
+  color: blue; 
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  /* background: #cccccc; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: blue;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
