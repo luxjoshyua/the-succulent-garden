@@ -1,0 +1,28 @@
+/* cursor rainbow  */
+#mainCursor {
+  width: 20px;
+  height: 30px;
+  position: fixed;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+#mainCursor img {
+  width: 100%;
+  height: 100%;
+}
+
+#cursorContainer {
+  pointer-events: none;
+}
+
+.cursorSparkle {
+  position: fixed;
+  width: 20px;
+  height: 30px;
+  z-index: 90;
+  transform: scale(1);
+  -webkit-animation: disappear 2s forwards;
+  animation: disappear 2s forwards;
+}

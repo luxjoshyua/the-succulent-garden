@@ -1,0 +1,53 @@
+section.cactus-block {
+  position: relative;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  align-content: center; 
+  margin-bottom: 120px; 
+  padding-top: 60px;
+  text-align: center;
+  width: 100%; 
+  height: 400px; 
+}
+
+section.cactus__one {
+  position: relative;
+  top: 105vh; 
+}
+
+a.cactus-button, a.cactus-button-two {
+  border: 2px solid #fff; 
+  border-radius: 100%;
+  padding: 50px 100px; 
+  -webkit-transition: .2s; 
+  transition: .2s; 
+  -webkit-transform: rotate(-10deg); 
+  transform: rotate(-10deg); 
+  -webkit-text-stroke: 2px #0000ff;
+  color: #000;
+  font-size: 10vmin; 
+  font-family: 'Neue Pixel Grotesk';
+  text-transform: uppercase; 
+  text-decoration: none; 
+}
+
+a.cactus-button:hover, a.cactus-button-two:hover {
+  background-color: #fff;
+  color: #0000ff;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+a.cactus-button-two {
+  -webkit-transform: rotate(10deg); 
+  transform: rotate(10deg);
+
+}
+
+section.cactus__two {
+  position: relative;
+  top: 100vh; 
+}
+
+

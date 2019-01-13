@@ -1,81 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>the succulent garden</title>
-  <link rel="stylesheet" href="./css/main.css" />
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>the succulent garden</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-<body>
+  <body>
 
-  <!-- TODO: add svg animating underline potentially for the -->
+    <!-- TODO: add svg animating underline potentially for the heading -->
 
-  <!-- TODO: make each cactus clickable that then takes you to it's own page with animation there, outline text then hover fill white -->
+    <!-- TODO: make each cactus clickable that then takes you to it's own page with animation there, outline text then hover fill white -->
 
-  <!-- TODO: add in one big animated cactus for the landing -->
+    <!-- TODO: add in one big animated cactus for the landing -->
 
-  <!-- TODO: have the circles animate like russian site and dapp boi -->
+    <!-- TODO: have the circles animate like russian site and dapp boi -->
 
-  <!-- TODO: add rainbow cursor - add in later -->
+    <!-- TODO: have a background video on loop like the russian site -->
 
-  <!-- heading text -->
-  <section class="heading__wrapper">
-    <!-- line one -->
-    <div class="heading__text">
-      <div class="row_one">
-        t<span>h</span>e suc<span>c</span>ul<span>e</span>nt
+    <!-- heading text -->
+    <section class="heading__wrapper">
+      <!-- line one -->
+      <div class="heading__text">
+        <div class="row_one">
+          t<span>h</span>e
+          s<span>u</span>cc<span>u</span>le<span>n</span>t
+        </div>
+        <div class="row_two">
+          g<span>ar</span>de<span>n</span>
+        </div>
       </div>
-      <div class="row_two">
-        g<span>a</span>rde<span>n</span>
+    </section>
+
+    <!-- rainbow cursor -->
+    <div id="cursorContainer">
+      <div id="mainCursor">
+        <img src="assets/cursors/cursor.png">
       </div>
+      <!--mainCursor-->
     </div>
-  </section>
+    <!--cursorContainer-->
 
-  <!-- navigation -->
-  <header>
-    <nav>
-      <a class="menu-toggle">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-        <!-- <img src="eye-icon.svg"> -->
+    <!-- navigation -->
+    <header>
+      <nav>
+        <a class="menu-toggle">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <!-- <img src="eye-icon.svg"> -->
+        </a>
+      </nav>
+    </header>
+    <!-- navigation copy -->
+    <div class="menu">
+      <nav class="menu-about">
+        <p>Welcome to the Succulent Garden. We're located in the middle of the Royal Botanic Gardens Sydney.
+          Come along to see Australia's largest collection of succulents and cacti from all around the world.
+          Select a succulent to find out more!
+        </p>
+      </nav>
+    </div>
+
+    <!-- marquee -->
+    <div class="marquee mix-difference">
+      <span></span>
+    </div>
+
+    <!-- sunshine -->
+    <div class="sunshine__wrapper">
+      <img src="svg-images/sunshine.svg" class="sunshine" id="sunshine">
+      <!-- <use xlink:href="#sunshine"></use> -->
+    </div>
+
+    <!-- sydney logo -->
+    <div id="sydney" class="sydney__wrapper">
+      <img src="svg-images/sydney.svg" class="sydney el-sq" id="sydney">
+    </div>
+
+    <!-- arrojadoa -->
+    <div class="arrojadoa__wrapper">
+      <img src="svg-images/arrojadoa.svg" class="arrojadoa" id="arrojadoa">
+    </div>
+
+
+
+
+    <!-- cactus block one -->
+    <section class="cactus-block cactus__one">
+      <!-- cactus title -->
+      <a href="#" target="blank" class="cactus-button">
+        bunny ears
       </a>
-    </nav>
-  </header>
-  <!-- navigation copy -->
-  <div class="menu">
-    <nav class="menu-about">
-      <p>Welcome to the Succulent Garden. We're located in the middle of the Royal Botanic Gardens Sydney.
-        Come along to see Australia's largest collection of succulents and cacti from all around the world.
-        Select a succulent to find out more!
-      </p>
-    </nav>
-  </div>
 
-  <!-- marquee -->
-  <div class="marquee mix-difference">
-    <span></span>
-  </div>
+    </section>
 
-  <!-- sunshine -->
-  <div class="sunshine__wrapper">
-    <img src="svg-images/sunshine.svg" class="sunshine" id="sunshine">
-    <!-- <use xlink:href="#sunshine"></use> -->
-  </div>
 
-  <!-- arrojadoa -->
-  <div class="arrojadoa__wrapper">
-    <img src="svg-images/arrojadoa.svg" class="arrojadoa" id="arrojadoa">
-  </div>
 
 
 
 
+    <!-- cactus block two -->
 
+    <section class="cactus-block cactus__two">
+      <!-- cactus title -->
+      <a href="#" target="blank" class="cactus-button-two">
+        Echinocactus
+      </a>
 
+    </section>
 
 
 
@@ -159,16 +195,28 @@
 
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <!-- <script src="js/anime-min.js"></script> -->
 
-  <script src="js/main.js"></script>
 
-  <script src="js/svg-animation.js"></script>
 
 
 
-</body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+    <!-- <script src="js/anime-min.js"></script> -->
+
+    <script src="js/main.js"></script>
+
+    <script src="js/svg-animation.js"></script>
+
+    <!-- <script src="js/rainbow-cursor.js"></script> -->
+
+
+
+  </body>
 
 </html>
