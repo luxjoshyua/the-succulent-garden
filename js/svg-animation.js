@@ -32,6 +32,21 @@ anime({
 
 // use one of the pulse grow things like in racquettes 
 
+// the anime.js targets the svg from the class or id in the html itself, 
+// not that added separately to the svg file
+
+
+anime({
+  targets: '.zig-zag-underline',
+  translateX: [-20, 250], // from 100 to 250
+  delay: 500,
+  direction: 'alternate',
+  loop: true,
+  duration: 3500,
+  easing: 'easeInOutQuad'
+});
+
+
 
 
 
@@ -40,9 +55,6 @@ anime({
 //   ease:Bounce.easeOut,
 //   y: 100
 // }); 
-
-
-
 
 TweenLite.fromTo('#Layer_1_test path ', 4, {drawSVG: "0%"}, {drawSVG: "100%"});
 

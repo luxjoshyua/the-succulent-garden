@@ -11,23 +11,37 @@ section.heading__wrapper {
   margin-top: 50px; 
 }
 
-div.heading {
-  font-size: 220px; 
-  font-weight: 400; 
-}
 
-.heading__text {
+div.heading__text {
   font-family: 'Helvetica Neue'; 
   font-size: 215px; 
   color: #fff; 
 }
 
-.row_one {
+div.row_one {
   margin-bottom: -100px; 
 }
 
-.heading__text span {
+div.heading__text span {
   font-family: 'Neue Pixel Grotesk';
+}
+
+div img.zig-zag-underline {
+  position: relative;
+  display: flex;
+  width: 70vw;
+  text-align: center;
+  justify-content: center;
+  margin: -70px auto 50px;
+}
+
+div img.zig-zag-underline-two {
+  position: relative;
+  display: flex;
+  width: 45vw;
+  text-align: center;
+  justify-content: center;
+  margin: -50px auto 50px; 
 }
 
 
