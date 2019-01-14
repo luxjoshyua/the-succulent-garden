@@ -1,0 +1,7 @@
+div.eulychnia__wrapper {
+  position: absolute;
+  bottom: 55px;
+  right: .5%;
+  z-index: -1;
+}
+

@@ -5,6 +5,7 @@ $('.menu-toggle').on('click', function() {
 
 
 // ==== marquee effect ====
+
 // here we make a function called makeMarquee
 function makeMarquee() {
   const title = 'Come and see our Succulent Garden!-Open every day from 9am!-Fun for the whole family!'
@@ -22,6 +23,3 @@ function makeMarquee() {
 
 // here we actually run our makeMarquee function
 makeMarquee()
-
-
-

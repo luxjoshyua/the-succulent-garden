@@ -1,0 +1,6 @@
+div.san-pedro__wrapper {
+  position: absolute;
+  bottom: 55px;
+  left: 45%;
+  z-index: -1;
+}

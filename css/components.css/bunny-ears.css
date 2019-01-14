@@ -1,0 +1,8 @@
+div.bunny-ears__wrapper {
+  position: absolute;
+  bottom: 55px;
+  left: 185px;
+  z-index: -1;
+}
+
+

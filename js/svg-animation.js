@@ -9,25 +9,28 @@ anime({
   easing: 'easeInOutSine'
 })
 
-// anime({
-//   targets: '#sydney',
-//   rotate: '1turn',
-//   delay: (el, i) => i * 100,
-//   duration: 2000,
-//   loop: true,
-//   direction: 'alternate',
-//   easing: 'easeInOutSine'
-// })
 
-// var CSStransforms = anime({
-//   targets: '#sydney .el-sq',
-//   translateX: 50,
-//   translateY: 50, 
-//   scale: 1.2,
-//   rotate: '5turn',
-//   loop: true,
-//   duration: 4600, 
-// });
+// function randomValues() {
+//   anime({
+//     targets: '#sydney',
+//     translateY: function() {
+//       return anime.random(0, 200);
+//     },
+//     easing: 'easeInOutQuad',
+//     duration: 750,
+//     complete: randomValues
+//   });
+// }
+
+// randomValues();
+
+
+anime({
+  targets: '#sydney',
+  
+});
+
+
 
 
 // use one of the pulse grow things like in racquettes 
@@ -38,13 +41,25 @@ anime({
 
 anime({
   targets: '.zig-zag-underline',
-  translateX: [-20, 250], // from 100 to 250
+  translateX: [-20, 20], // from 100 to 250
   delay: 500,
   direction: 'alternate',
   loop: true,
-  duration: 3500,
+  duration: 3000,
   easing: 'easeInOutQuad'
 });
+
+anime({
+  targets: '.zig-zag-underline-two',
+  translateX: [-20, 20], // from 100 to 250
+  delay: 500,
+  direction: 'alternate',
+  loop: true,
+  duration: 3000,
+  easing: 'easeInOutQuad'
+});
+
+
 
 
 

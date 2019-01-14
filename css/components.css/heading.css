@@ -1,6 +1,6 @@
 section.heading__wrapper {
   position: absolute; 
-  top: 50%; 
+  top: 10%; 
   left: 50%;
   transform: translate(-50%, -50%); 
   display: flex;
@@ -11,10 +11,9 @@ section.heading__wrapper {
   margin-top: 50px; 
 }
 
-
 div.heading__text {
   font-family: 'Helvetica Neue'; 
-  font-size: 215px; 
+  font-size: 120px; 
   color: #fff; 
 }
 
@@ -29,19 +28,19 @@ div.heading__text span {
 div img.zig-zag-underline {
   position: relative;
   display: flex;
-  width: 70vw;
+  width: 40vw;
   text-align: center;
   justify-content: center;
-  margin: -70px auto 50px;
+  margin: -45px auto 50px;
 }
 
 div img.zig-zag-underline-two {
   position: relative;
   display: flex;
-  width: 45vw;
+  width: 22vw;
   text-align: center;
   justify-content: center;
-  margin: -50px auto 50px; 
+  margin: -30px auto 50px; 
 }
 
 

@@ -1,0 +1,6 @@
+div.peyote__wrapper {
+  position: absolute;
+  bottom: 55px;
+  left: 56%;
+  z-index: -1;
+}

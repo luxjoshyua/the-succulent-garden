@@ -11,7 +11,7 @@ div.marquee {
 
 div.marquee span {
   position: relative;
-  animation: moveLeft 600s infinite; 
+  animation: moveLeft 900s infinite; 
   white-space: nowrap; 
   display: block;
   font-family: 'Neue Pixel Grotesk';
