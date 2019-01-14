@@ -1,0 +1,24 @@
+div.text-block__arrojadoa {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 5px solid #fff; */
+  width: 730px;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 2;
+  /* display: none;  */
+}
+
+div.text-block__arrojadoa p {
+  font-size: 34px;
+  line-height: 42px;
+  color: #fff;
+  font-weight: 400; 
+  letter-spacing: 1.2px; 
+  text-align: center; 
+  font-family: 'Neue Pixel Grotesk'; 
+}
+
+

@@ -1,6 +1,7 @@
 section.heading__wrapper {
   position: absolute; 
-  top: 10%; 
+  /* top: 10%;  */
+  top: 5%; 
   left: 50%;
   transform: translate(-50%, -50%); 
   display: flex;
@@ -13,7 +14,8 @@ section.heading__wrapper {
 
 div.heading__text {
   font-family: 'Helvetica Neue'; 
-  font-size: 120px; 
+  /* font-size: 120px;  */
+  font-size: 70px; 
   color: #fff; 
 }
 
@@ -25,22 +27,32 @@ div.heading__text span {
   font-family: 'Neue Pixel Grotesk';
 }
 
+div.row_two {
+  padding-top: 25px; 
+}
+
 div img.zig-zag-underline {
   position: relative;
   display: flex;
-  width: 40vw;
+  /* width: 40vw; */
+  /* width: 20vw;  */
+  width: 300px; 
   text-align: center;
   justify-content: center;
-  margin: -45px auto 50px;
+  /* margin: -45px auto 50px; */
+  margin: -15px auto 50px; 
 }
 
 div img.zig-zag-underline-two {
   position: relative;
   display: flex;
-  width: 22vw;
+  /* width: 25vw; */
+  /* width: 15vw;  */
+  width: 220px; 
   text-align: center;
   justify-content: center;
-  margin: -30px auto 50px; 
+  /* margin: -30px auto 50px;  */
+  margin: -15px auto 50px; 
 }
 
 
