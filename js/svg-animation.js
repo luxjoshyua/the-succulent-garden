@@ -53,6 +53,11 @@ anime({
 // });
 
 
+anime({
+  targets: '#arrojadoa path',
+  translateX: 270,
+});
+
 
 
 
