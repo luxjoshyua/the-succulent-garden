@@ -13,7 +13,7 @@ anime({
 // sydney
 anime({
   targets: '#sydney',
-  scale: 1.3,
+  scale: 1.2,
   rotate: 1280,
   skew: '20deg',
   translateY: -20,
