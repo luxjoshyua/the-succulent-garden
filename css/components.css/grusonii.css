@@ -2,7 +2,7 @@ div.grusonii__wrapper {
   position: absolute;
   bottom: 55px;
   left: 31%;
-  z-index: -1;
+  cursor: pointer;
 }
 
 

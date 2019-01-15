@@ -1,7 +1,7 @@
 section.heading__wrapper {
   position: absolute; 
   /* top: 10%;  */
-  top: 5%; 
+  top: 3%; 
   left: 50%;
   transform: translate(-50%, -50%); 
   display: flex;
@@ -9,7 +9,7 @@ section.heading__wrapper {
   text-align: center; 
   width: 100%; 
   justify-content: center; 
-  margin-top: 50px; 
+  margin-top: 70px; 
 }
 
 div.heading__text {
@@ -17,6 +17,7 @@ div.heading__text {
   /* font-size: 120px;  */
   font-size: 70px; 
   color: #fff; 
+  text-transform: uppercase; 
 }
 
 div.row_one {
@@ -35,8 +36,7 @@ div img.zig-zag-underline {
   position: relative;
   display: flex;
   /* width: 40vw; */
-  /* width: 20vw;  */
-  width: 300px; 
+  width: 850px; 
   text-align: center;
   justify-content: center;
   /* margin: -45px auto 50px; */
@@ -47,7 +47,6 @@ div img.zig-zag-underline-two {
   position: relative;
   display: flex;
   /* width: 25vw; */
-  /* width: 15vw;  */
   width: 220px; 
   text-align: center;
   justify-content: center;

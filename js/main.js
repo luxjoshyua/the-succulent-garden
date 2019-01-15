@@ -25,3 +25,104 @@ function makeMarquee() {
 makeMarquee()
 
 
+
+
+// only use e for jQuery events
+
+// arrojadoa
+
+var i = document.getElementById('ar-text');
+
+i.onmouseover = function() {
+  // console.log("rollover"); 
+  document.getElementById('aj-text-b').style.display = 'block';
+}
+
+i.onmouseout = function() {
+  document.getElementById('aj-text-b').style.display = 'none';
+}  
+
+// bunny ears
+
+var i = document.getElementById('be-text');
+
+i.onmouseover = function() {
+  // console.log("rollover"); 
+  document.getElementById('be-text-b').style.display = 'block';
+}
+
+i.onmouseout = function() {
+  document.getElementById('be-text-b').style.display = 'none';
+}  
+
+
+// grusonii
+
+var i = document.getElementById('gr-text');
+
+i.onmouseover = function() {
+  // console.log("rollover"); 
+  document.getElementById('gr-text-b').style.display = 'block';
+}
+
+i.onmouseout = function() {
+  document.getElementById('gr-text-b').style.display = 'none';
+}  
+
+// san pedro
+
+var i = document.getElementById('sa-text');
+
+i.onmouseover = function() {
+  // console.log("rollover"); 
+  document.getElementById('sa-text-b').style.display = 'block';
+}
+
+i.onmouseout = function() {
+  document.getElementById('sa-text-b').style.display = 'none';
+}  
+
+// peyote 
+
+var i = document.getElementById('pe-text');
+
+i.onmouseover = function() {
+  // console.log("rollover"); 
+  document.getElementById('pe-text-b').style.display = 'block';
+}
+
+i.onmouseout = function() {
+  document.getElementById('pe-text-b').style.display = 'none';
+}  
+
+// elephant 
+
+var i = document.getElementById('el-text');
+
+i.onmouseover = function() {
+  // console.log("rollover"); 
+  document.getElementById('el-text-b').style.display = 'block';
+}
+
+i.onmouseout = function() {
+  document.getElementById('el-text-b').style.display = 'none';
+}  
+
+
+// eulychnia 
+
+var i = document.getElementById('eu-text');
+
+i.onmouseover = function() {
+  // console.log("rollover"); 
+  document.getElementById('eu-text-b').style.display = 'block';
+}
+
+i.onmouseout = function() {
+  document.getElementById('eu-text-b').style.display = 'none';
+}  
+
+
+
+
+

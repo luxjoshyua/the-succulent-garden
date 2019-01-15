@@ -1,6 +1,6 @@
 div.elephant__wrapper {
   position: absolute;
-  bottom: 55px;
-  right: 11%;
-  z-index: -1;
+  bottom: 18px;
+  right: 14%;
+  cursor: pointer;
 }

@@ -2,8 +2,10 @@ div.arrojadoa__wrapper {
   position: absolute;
   bottom: 55px;
   left: 30px;
+  cursor: pointer;
   /* transform: translate(-50%, -50%); */
-  z-index: -1;
+  /* DON'T USE -Z-INDEX, ONLY POSITIVE! */
+  /* z-index: -1; */
 }
 
 

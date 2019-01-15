@@ -14,10 +14,10 @@ body {
   padding: 0;
 }
 
-body,
+/* body,
 html {
   min-height: 100%;
-}
+} */
 
 a:hover {
   color: blue;
