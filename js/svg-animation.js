@@ -42,10 +42,25 @@ anime({
 
 
 anime({
-  targets: '.svg2-test path',
-  translateX: 270,
-  delay: anime.stagger(100, {start: 500}), // delay starts at 500ms then increase by 100ms for each elements.
+  targets: '.san-pedro-animation path',
+  // delay: anime.stagger(400, {start: 500}), // delay starts at 500ms then increase by 100ms for each elements.
+  delay: anime.stagger(200, {direction: 'reverse'}),
+  keyframes: [
+    {translateY: -20},
+    {translateX: 10},
+    {translateY: 40},
+    {translateX: 50},
+    // {translateY: -40}
+    {translateY: 10}
+  ],
+  rotate: anime.stagger([-360, 360]), // rotation will be distributed from -360deg to 360deg evenly between all elements
+  easing: 'easeInOutQuad',
+  loop: true,
+  duration: 4000,
+
 });
+
+
 
 
 
