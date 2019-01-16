@@ -30,8 +30,6 @@ anime({
 // use svg id then path
 // use delay: anime.stagger(100) to increase delay by 100ms for each elements
 
-
-
 anime({
   targets: '.zig-zag-underline',
   translateX: [-20, 20], // from 100 to 250
