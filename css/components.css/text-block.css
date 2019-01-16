@@ -8,6 +8,7 @@ div.text-block {
   padding: 0;
   z-index: 2;
   display: none; 
+  /* transition: .4s ease-in-out;  */
 }
 
 div.text-block p {

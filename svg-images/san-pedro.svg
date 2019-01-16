@@ -1,14 +1,14 @@
 
-<svg width="164px" height="492px" viewBox="0 0 164 592" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg id="svg-test" width="164px" height="492px" viewBox="0 0 164 592" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="FriendlyCacti_San-Pedro" transform="translate(1.000000, 3.000000)" fill="#7EFD03" fill-rule="nonzero" stroke="#000000" stroke-width="5">
-            <path d="M148.79,585.64 L148.79,68.14 C148.79,30.7006168 118.439383,0.35 81,0.35 C43.5606168,0.35 13.21,30.7006168 13.21,68.14 L13.21,585.64 L148.79,585.64 Z" id="Shape"></path>
-            <path d="M119.28,147 L119.28,124 C119.28,113.12 119.36,102.24 119.78,91.37 C120.32,77.07 117.78,38.8 81.1,0.5 L81.1,0.4 C81.1,0.4 81.1,0.4 81.05,0.4 L81,0.4 L81,0.5 C44.3,38.8 41.78,77.07 42.32,91.37 C42.74,102.24 42.82,136.16 42.82,147.04" id="Shape"></path>
-            <path d="M119.29,116.56 L131.58,104.28" id="Shape"></path>
-            <path d="M119.29,116.56 L107.01,104.28" id="Shape"></path>
+            <path class="san-pedro-test" d="M148.79,585.64 L148.79,68.14 C148.79,30.7006168 118.439383,0.35 81,0.35 C43.5606168,0.35 13.21,30.7006168 13.21,68.14 L13.21,585.64 L148.79,585.64 Z" id="Shape"></path>
+            <path class="san-pedro-test" d="M119.28,147 L119.28,124 C119.28,113.12 119.36,102.24 119.78,91.37 C120.32,77.07 117.78,38.8 81.1,0.5 L81.1,0.4 C81.1,0.4 81.1,0.4 81.05,0.4 L81,0.4 L81,0.5 C44.3,38.8 41.78,77.07 42.32,91.37 C42.74,102.24 42.82,136.16 42.82,147.04" id="Shape"></path>
+            <path class="san-pedro-test"  d="M119.29,116.56 L131.58,104.28" id="Shape"></path>
+            <path class="san-pedro-test"  d="M119.29,116.56 L107.01,104.28" id="Shape"></path>
             <path d="M119.29,331.98 L131.58,319.7" id="Shape"></path>
             <path d="M119.29,331.98 L107.01,319.7" id="Shape"></path>
             <path d="M119.29,403.79 L131.58,391.51" id="Shape"></path>
@@ -62,3 +62,4 @@
         </g>
     </g>
 </svg>
+

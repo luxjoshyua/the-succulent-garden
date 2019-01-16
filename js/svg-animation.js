@@ -14,12 +14,11 @@ anime({
 anime({
   targets: '#sydney',
   scale: 1.2,
-  rotate: 1280,
+  rotate: 5409,
   skew: '20deg',
   translateY: -20,
-  delay: (el, i) => i * 400,
-  duration: 100005,
-  duration: 8000,
+  delay: (el, i) => i * 500,
+  duration: 100000,
   loop: 'true',
   direction: 'alternate',
   easing: 'easeInOutQuad'
@@ -32,6 +31,7 @@ anime({
 // use delay: anime.stagger(100) to increase delay by 100ms for each elements
 
 
+
 anime({
   targets: '.zig-zag-underline',
   translateX: [-20, 20], // from 100 to 250
@@ -42,22 +42,12 @@ anime({
   easing: 'easeInOutQuad'
 });
 
-// anime({
-//   targets: '.zig-zag-underline-two',
-//   translateX: [-20, 20], // from 100 to 250
-//   delay: 500,
-//   direction: 'alternate',
-//   loop: true,
-//   duration: 3000,
-//   easing: 'easeInOutQuad'
-// });
-
 
 anime({
-  targets: '#arrojadoa path',
+  targets: '.svg2-test path',
   translateX: 270,
+  delay: anime.stagger(100, {start: 500}), // delay starts at 500ms then increase by 100ms for each elements.
 });
-
 
 
 
