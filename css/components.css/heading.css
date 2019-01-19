@@ -15,7 +15,7 @@ section.heading__wrapper {
 div.heading__text {
   font-family: 'Helvetica Neue'; 
   /* font-size: 120px;  */
-  font-size: 70px; 
+  font-size: 80px; 
   color: #fff; 
   text-transform: uppercase; 
 }
@@ -36,21 +36,10 @@ div img.zig-zag-underline {
   position: relative;
   display: flex;
   /* width: 40vw; */
-  width: 850px; 
+  width: 900px; 
   text-align: center;
   justify-content: center;
   margin: -10px auto 50px; 
-}
-
-div img.zig-zag-underline-two {
-  position: relative;
-  display: flex;
-  /* width: 25vw; */
-  width: 220px; 
-  text-align: center;
-  justify-content: center;
-  /* margin: -30px auto 50px;  */
-  margin: -15px auto 50px; 
 }
 
 

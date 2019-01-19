@@ -48,10 +48,10 @@ anime({
   keyframes: [
     {translateY: -20},
     {translateX: 10},
-    {translateY: 40},
-    {translateX: 50},
+    {translateY: 20},
+    {translateX: 20},
     // {translateY: -40}
-    {translateY: 10}
+    {translateY: 0}
   ],
   rotate: anime.stagger([-360, 360]), // rotation will be distributed from -360deg to 360deg evenly between all elements
   easing: 'easeInOutQuad',
