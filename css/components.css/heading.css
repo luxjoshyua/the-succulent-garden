@@ -10,6 +10,7 @@ section.heading__wrapper {
   width: 100%; 
   justify-content: center; 
   margin-top: 70px; 
+  z-index: 2; 
 }
 
 div.heading__text {

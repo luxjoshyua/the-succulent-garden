@@ -1,6 +1,5 @@
 @import "../css/base.css"; 
 
-
 @import "../css/common.css"; 
 
 
@@ -11,6 +10,9 @@
 
 
 @import "../css/components.css/cactus-block.css"; 
+
+
+@import "../css/components.css/circles.css"; 
 
 
 @import "../css/components.css/elephant.css"; 
