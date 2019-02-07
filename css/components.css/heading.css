@@ -36,11 +36,10 @@ div.row_two {
 div img.zig-zag-underline {
   position: relative;
   display: flex;
-  /* width: 40vw; */
   width: 900px; 
   text-align: center;
   justify-content: center;
-  margin: -10px auto 50px; 
+  margin: -20px auto 50px; 
 }
 
 
